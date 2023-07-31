@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h1 class="head">Quotes For Life</h1>
+        <div class="quot">
+            "Life is like riding a bicycle. To keep your balance you must keep moving"<br>
+            <span class="author">~~ Albert Einstein</span>
+        </div>
+    </center>
+</body>
+
+</html>
+
+css file
+body {
+    /* design web background image  */
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.head {
+    color: #dc0a0a;
+}
+
+.quot {
+    width: 60%;
+    height: 50px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 15%;
+    padding-bottom: 20px;
+    border-bottom: solid black thin ;
+    background-color: #80808089;
+}
+
+
+
